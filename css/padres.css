@@ -1,0 +1,23 @@
+#one{
+    font-size: 20px;
+    position: relative;
+    top: 90px;
+    right: 120px;
+}
+#two{
+    font-size: 20px;
+    position: relative;
+    top: 160px;
+    right: 120px;
+}
+
+.imagen {
+    position:relative;
+    left: 180px;
+    height: 500px;
+    width: 380px;
+}
+.cont-footer{
+    position:relative;
+    top: 146px;
+}

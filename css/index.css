@@ -1,0 +1,331 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|typicons);
+[class*="fontawesome-"]:before {
+font-family: 'FontAwesome', sans-serif;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tecnoschool {
+    color: #eeeeee;
+    position: relative;
+    background-color: rgb(0, 151, 255);
+    padding: 15px;
+    margin-right: 0%;
+    left: 0%;   
+}
+
+
+.inicio {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 8px;
+    font-size: 20px;
+
+}
+.login {
+    background-color: rgb(0, 151, 255);
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 8px;
+}
+.admi {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 8px;
+}
+.alumnos {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 8px;
+}
+.docentes {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 8px;
+}
+.padres {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 8px;
+}
+.navegacion {
+    width: 700px;
+    margin: 40px auto;
+    background-color: rgb(0, 151, 255);
+    position: absolute;
+
+    left: 500px;
+    top: -6px;
+}
+
+.navegacion1 {
+    width: 700px;
+    margin: 40px auto;
+    background-color: rgb(0, 151, 255);
+    position: absolute;
+
+    left: 1000px;
+    top: -6px;
+    
+    
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+.menu > li >  {
+    display: block;
+    padding: 8px 8px;
+    color: #ffffff;
+    font-family: tahoma;
+    text-decoration: none;
+}
+.menu  li  a:hover {
+    color: rgb(0, 151, 255);
+    background-color: #f2f2f2;
+    transition: all .3s;
+}
+.submenu {
+    position: absolute;
+    background-color: rgb(0, 151, 255);
+    width: 130px;
+    display: none;
+}
+.submenu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #eeeeee;
+    font-family: Tahoma;
+    text-decoration: none;
+}
+.menu li:hover .submenu {
+    display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*primer cuadro*/
+
+.megafono {
+height: 300px;
+width: 33%;   
+float: left;
+text-align: center;
+}
+
+.pc{    
+width: 34%;
+height: 300px;
+float: left;
+background: cyan;
+text-align: center;
+}
+
+.news{    
+height: 300px;
+width: 33%;
+text-align: center;
+float: left;
+background:cyan;
+}
+
+
+.btnnews{
+    border-radius: 12px;
+    display: inline-block;
+    padding: 20px 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+    width: 300px;
+}
+
+.btn-greennews{
+    color: white;
+    background-color: #3CC93F;
+}
+.btn-greennews:hover{
+    background-color: #37B839;	
+}
+.btn-greennews:active{
+    background-color: #29962A;
+}
+
+/*termina primer cuadro*/
+
+.cuadro_uno {
+    width: 100%;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;       
+    text-align: center;       
+    
+}
+@media screen and (max-width:600px){
+    .megafono{
+        width: 100%;
+    }
+}
+
+ @media screen and (max-width: 600px){
+    .pc{
+     width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 600px){
+    .news{
+     width: 100%;
+        
+    }
+}
+
+.espacio{
+    width: 100%;
+    height: 40px;
+    float: left;
+    display: flex;
+}
+
+/* cuadro dos*/
+
+.cuadro_dos {
+    padding-top: 15px;
+    width: 100%;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;       
+    text-align: center;       
+    background: cyan;
+    height: 330px;
+}
+@media screen and (max-width:600px){
+    .listado{
+        width: 100%;
+    }
+}
+
+ @media screen and (max-width: 600px){
+    .logros{
+     width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 600px){
+    .cronograma{
+     width: 100%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot {
+    position: absolute;
+    bottom: 0%;
+    background-color: rgb(0, 151, 255);
+    width: 100%;
+    height: 40px;
+}
+.condiciones {
+    bottom: 0%;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 20px;
+}
+.derechos {
+    bottom: 0%;
+    color: #ffffff;
+    position: absolute;
+    left: 300px;
+}
+.calendario {
+    position: absolute;
+    right: 2%;
+    top: -40px;
+}
+.email {
+    position: absolute;
+    right: 7%;
+    top: -40px;
+}

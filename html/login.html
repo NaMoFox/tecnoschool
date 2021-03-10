@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link rel="stylesheet" type="text/css" href="../css/login.css">
+        <script>
+            function RedirigirLogin(){
+            var usuario = document.getElementById('datos').value;
+            switch(usuario){
+            case 'administrador':
+            location.href ="./administrador.html";
+            break;
+            
+            case 'estudiante':
+            location.href ="./alumnos.html";
+            break;
+
+            case 'padre':
+            location.href="./padres.html";
+            break;
+            
+            case 'madre de familia':
+            location.href="./padres.html";
+            break;
+
+            case 'docente':
+            location.href="./docentes.html";
+            break;
+                
+            default: 
+            location.href = "../index.html";
+            break;
+            }
+        }
+        </script>
+    </head>
+    <body>
+    <div class="tecnoschool">
+        <h1 class="logo" >TecnoSchool</h1>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <div id="espacio1"></div> 
+    <main>
+<section id="blog">
+        <div class="contenedor">
+            <article>
+                <div class="login1">
+                    
+                        <form action="">
+                        
+                            <div>
+                                <br>
+                                <img src="..\images\usuario.png" width="100" height="100" />
+                                <br />
+                                <br />
+                                <p class="usuario">Usuario</p>
+                                <input border=2 id="datos" class="casilla_de_texto" type="text" placeholder="  Escribe tu Usuario" name="usuario" required>
+                                <br />
+                                <br />
+                                <p class="usuario">Contraseña</p>
+                                <input border=2 class="casilla_de_texto" type="text" placeholder="  Escribe tu Usuario" name="usuario" required>
+                            </div>
+                                <br />
+                                <div class="Recordarme"><input type="checkbox" name="service" value="Recordarme"/> Recordarme </div>
+                        </form>
+                    
+                </div>
+            </article>  
+        
+        <article>
+            <div class="login1 botone">
+                <div>                  
+                    <input type="button" onclick="RedirigirLogin()" class="btnnews btn-greennews" name="subscribe" value="INICIAR SESIÓN"  />
+                    <br/>
+                    <br/>
+                    <input type="submit" class="btnnews btn-greennews" name="subscribe" value='REGISTRARSE'/>
+                    <br/>
+                    <br/>
+                            <div class="">
+                                <p>________ ó ________</p>
+                                <br>
+                                <br>
+                               <!-- <input type="image" class="" src="..\images\google.png" width="130" height="90"/>-->
+                                <a class="gmail" href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><input type="image" class="" src="..\images\google.png" width="130" height="90"/></a>
+                                <a ckass="facebook" href="https://m.facebook.com/?locale=es_LA"> <input type="image" class="" src="..\images\fb.png" width="130" height="90"/></a>
+
+                            </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+</main>
+<div id="espacio2"></div>   
+        
+
+<footer>
+    <div id="contenedor">
+
+        <div id="divpie1">        
+            <a href="#" >Condiciones de uso</a>     
+            <br />
+            <a href="#" >Politicas de privacidad</a>     
+        </div>            
+            
+            <div id="divpie2">
+                <p>2020 TecnoSchool. Todos los derechos reservados.</p>
+            </div>
+        
+                <div id="divpie3">
+                    <img src="../images/email.svg" alt="email" width="60" height="60" alt="">
+                    <img src="../images/calendario.svg" alt="calendario" width="60" height="60" alt="">
+                </div>
+    </div>
+</footer>
+
+
+</body>    
+</html>

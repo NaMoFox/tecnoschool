@@ -1,0 +1,39 @@
+.imagen{
+    position: relative;
+    right: 250px;
+    bottom: 60px;
+}
+#uno{
+font-size: 20px;
+position: relative;
+left: 60px;
+top: 70px;
+}
+#dos{
+    font-size: 20px;
+position: relative;
+left: 180px;
+top:120px;
+}
+#tres{
+    font-size: 20px;
+position: relative;
+left: 60px;
+top: 170px;
+}
+#cuatro{
+    font-size: 20px;
+    position: relative;
+    left: 180px;
+    top: 220px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/*#cont-bottom{
+    position: relative;
+    bottom: 100px;
+}*/
+.cont-footer{
+    position: relative;
+    bottom: 89px;
+}

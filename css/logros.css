@@ -1,0 +1,52 @@
+    .cont-footer{
+      position: fixed;
+      bottom: 0px;
+  }
+  .cont_logros{
+    width:90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .cont-h2{
+    padding: 20px;
+    text-align: center;
+    width:80%;
+    margin: auto;
+  }
+  
+  
+  .zero {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    right: 100px;
+    top: 50px;
+
+  }
+  .one {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+  }
+  .two{
+    width: 200px;
+    height: 150px;
+    position:relative;
+    left: 100px;
+    top: 120px;
+  }
+  .three{
+    width: 200px;
+    height: 150px;
+    position:relative;
+    left: 150px;
+    top: 140px;
+  }
+
+  #blog{
+    padding-top: 85px;
+  }

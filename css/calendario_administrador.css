@@ -1,0 +1,98 @@
+
+.creando {
+    position: absolute;
+    top: 90px;
+    color: rgb(0, 151, 255);
+}
+.cuadro {
+    text-align: center;
+    background-color: rgb(38, 189, 255) ;
+    width: 1200px;
+    height: 650px;
+    position: absolute;
+    top: 160px;
+    left: 40px;
+}
+.veinte_veinte {
+    position: absolute;
+    top: -50px;
+    left: 900px;
+    background-color: white;
+    border-radius: 10px;
+    border-color:rgb(0, 178, 255);
+}
+.enero {
+    position: relative;
+    top: 40px;
+    left: -150px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.abril {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 80px;
+    left: 830px;
+    border-radius: 10px;
+}
+.septiembre {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 280px;
+    left: 830px;
+    border-radius: 10px;
+}
+.boton {
+    position: absolute;
+    top: 500px;
+    left: 830px;
+    background-color: rgb(143, 244, 29);
+    width: 120px;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-decoration: none;
+
+    border: 0;
+    padding: 18px;
+    margin: 0;
+}
+.boton:hover {
+    background-color: rgb(117, 214, 5);
+}
+.comentarios {
+    position: absolute;
+    top: 490px;
+    left: 960px;
+    background-color: rgb(255,255,255);
+    width: 200px;
+    height: 100px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.calendario1 {
+        background-color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+        padding: 8px 8px;
+        color:  rgb(0, 151, 255);
+}
+
+.centrar{
+    align-items: center;
+    margin-left: 17%;
+    position:relative;
+}
+.cont-footer{
+    position: fixed;
+    bottom: 0px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,136 @@
+
+    
+               /*contenedor*/
+
+               #contenedor {
+                   width: 100%;   
+                   display: flex;
+                   flex-direction: row;
+                   justify-content: space-around;
+                   flex-flow: wrap;       
+                   text-align: center;       
+                   
+               }
+               @media screen and (max-width:1200px){
+                   .imagen{
+                       width: 70%;
+                   }
+               }
+
+                @media screen and (max-width: 600px){
+                   .botones a{
+                    width: 100%;
+                       
+                   }
+               }
+
+                .imagen img{
+                   width:100%;
+                   max-width:600px;
+                }
+
+                .botones{
+                padding-top: 100px;
+                }
+                
+                
+                /*Padres */
+
+                @media screen and (max-width:1200px){
+                    .imagenp{
+                        width: 70%;
+                    }
+                }
+ 
+                 @media screen and (max-width: 600px){
+                    .botonesp a{
+                     width: 100%;
+                        
+                    }
+                }
+ 
+                 .imagenp img{
+                    width:100%;
+                    max-width:600px;
+                    padding-top: 80px;
+                 }
+ 
+                 .botonesp {
+                 padding-top: 100px;
+                 }
+                
+            .btn{
+                border-radius: 12px;
+                display: inline-block;
+                padding: 20px 15px;
+                margin-top: 30px;
+                text-decoration: none;
+                text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+                box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+                width: 400px;
+                
+                
+                
+            }
+    
+            .btn-green{
+                color: white;
+                background-color: #3CC93F;
+            }
+            .btn-green:hover{
+                background-color: #37B839;	
+            }
+            .btn-green:active{
+                background-color: #29962A;
+            }
+    
+             /*footer*/
+
+       footer {
+           display: flex;
+                   position: absolute;
+        background-color: #0084e4;
+        bottom: 0;
+        width: 100%;
+        height: 90px;
+        color: white;
+      }
+
+      #divpie {
+          padding-top: 17px;
+          text-align: center;
+          font-size: 20px;
+          color: white;
+          text-decoration: none;
+          display: flex;
+   align-items: center;
+      }
+
+      #divpie a {  
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
+ 
+     
+        #divpie1 {
+            width: 634px;
+            float: left;
+                }
+        
+        #divpie2 {
+            width: 635px;
+            float: left;
+                }
+        
+        #divpie3 {
+            float: right;
+            width: 634px;
+                }
+
+                #clausura{
+                text-align: center;                
+                }
+
+               
+   

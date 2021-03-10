@@ -1,0 +1,276 @@
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|typicons);
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 65px;
+  background: #0084e4;
+  padding-top: 20px;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.contenedorp {
+  width: 98%;
+  margin: auto;
+}
+
+h1 {
+  float: left;
+}
+
+header .contenedorp {
+  display: table;
+}
+
+section {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+
+@media (min-width:1024px) {
+  .contenedorp {
+    width: 1300px;
+  }
+}
+
+
+#blog .contenedorp{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+#blog article {
+  margin: 35px;
+}
+
+#blog img {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+
+#menu-bar {
+  display: none;
+}
+
+header label {
+  float: right;
+  font-size: 28px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+
+
+.menu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #0084e4;
+  transition: all 0.5s;
+  transform: translateX(-100%);
+}
+
+.menu a {
+  display: block;
+  height: 45px;
+  text-decoration: none;
+  padding: 15px;
+  border-bottom: 1px solid white;
+}
+
+.login {
+  background-color: #ffffff;
+  color: #0084e4;
+  
+}
+
+.inicio{
+ color: white;
+}
+
+   .nombre {
+       color:white;
+   }
+
+.menu a:hover {
+  background: white;
+  color: #0084e4;
+  margin-left: 5px;
+}
+
+#menu-bar:checked ~ .menu {
+  transform: translateX(0%);
+}
+
+@media (min-width:1024px) {
+  .menu {
+    position: static;
+    width: auto;
+    height: auto;
+    transform: translateX(0%);
+    justify-content: center;
+    display: flex;
+  }
+  
+  .menu a {
+    border: none;
+  }
+
+
+  
+  header label { 
+    display: none;
+  }
+}
+
+#espacio {
+    width: auto;
+    height: 40px;
+    }
+
+    .btnnews{
+      border-radius: 12px;
+      display: inline-block;
+      padding: 20px 15px;
+      margin-top: 15px;
+      text-decoration: none;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+      box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+      width: 300px;
+      text-align: center;
+  }
+  
+  .btn-greennews{
+      color: white;
+      background-color: #3CC93F;
+  }
+  .btn-greennews:hover{
+      background-color: #37B839;	
+  }
+  .btn-greennews:active{
+      background-color: #29962A;
+  }
+  
+
+    footer .contenedorp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 25px;
+        text-decoration: none;
+        
+      }
+      
+          
+
+    footer {
+    background-color: #0084e4;
+     
+     width: 100%;
+     height: 100px;
+     color: white;
+     padding-top: 20px;
+     
+   }
+
+
+
+   #divpie1 a {
+       text-decoration: none;
+       color: white;
+   }
+
+  #divpie1 {
+      width: 33%;
+      float: left;
+      text-align: center;     
+      }
+  
+  #divpie2 {
+      width: 34%;
+      float: left;
+      text-align: center;     
+          }
+  
+  #divpie3 {
+    float: left;
+      width: 33%;
+      text-align: center;     
+          }
+
+          @media screen and (max-width: 900px){
+            footer{
+                height: 170px;
+                
+            }
+        }
+
+
+          @media screen and (max-width: 900px){
+            #divpie1{
+                width: 100%;
+                border-bottom: 1px solid cyan;
+
+            }
+        }
+        
+        @media screen and (max-width: 900px){
+            #divpie2{
+                width: 100%;
+            }
+        }
+
+        
+        @media screen and (max-width: 900px){
+            #divpie3{
+                width: 100%;
+            }
+        }
+
+
+       .botones{
+         padding-top: 100px;
+         text-align: center;
+         
+       }
+       
+
+       .imagen{
+        text-align: center;
+        width:100%;
+        padding-top: 130px;
+        max-width:600px;
+        margin-bottom: 150px;        
+     }
+
+     .espacio {
+         width: 100%;
+         height: 50px;
+         background: white;
+     }
+
